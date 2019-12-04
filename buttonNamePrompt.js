@@ -1,6 +1,6 @@
-const button = document.querySelector('button');
+const button = document.querySelector('Press Me!'');
 
 button.onclick = function() {
-  let name = prompt('What is your name?');
-  alert('Hello ' + name + ', nice to see you!');
+  let response = prompt('Whats your favorite candy?'');
+  alert('Thats cool! I like fruit, personally');
 }
